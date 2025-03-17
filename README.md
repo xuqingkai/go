@@ -5,7 +5,7 @@
 ### 版本支持
 1.10是支持XP的最后一个版本，1.20是支持WIN7的最后一个版本
 
-### 设置镜像源，任选一个，使用命令：go env |grep GOPROXY，查看
+### 设置镜像源，任选一个，使用命令：go env GOPROXY，查看
 ```
 go env -w GOPROXY=https://goproxy.cn,direct
 
